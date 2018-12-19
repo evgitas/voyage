@@ -64,7 +64,7 @@
 						<li><a href="#">Blog</a></li>
 						</ul>
 					</div>
-					<div class="circle"><i class="fas fa-search"></i></div>
+					<div class=""><i class="fas fa-search circle"></i></div>
 				</div>
 			</div>
 		</div>
@@ -92,7 +92,14 @@
 				</div>
 				<div class="search_container">
 					<div class="container">
-						find
+						<div class="flex-container4">
+							<div class="search_content h7">FIND YOUR <br><span>HOLYDAYS</span></div>
+							<div class="search_content h7">Where</div>
+							<div class="search_content"><input type="text" id="find" name="find" value="" placeholder="destination"></div>
+							<div class="search_content h7">When</div>
+							<div class="search_content"><input type="date" id="date" name="date" value="" placeholder="select date"></div>
+							<div class="search_content btn">Search</div>
+						</div>
 					</div>
 				</div>
 			</div>
