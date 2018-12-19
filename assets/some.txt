@@ -1,0 +1,8 @@
+FontAwesome
+
+<i class="fas fa-ship"></i>
+<i class="fas fa-city"></i>
+<i class="fas fa-kiss-wink-heart"></i>
+<i class="fas fa-car"></i>
+<i class="fas fa-umbrella-beach"></i>
+
