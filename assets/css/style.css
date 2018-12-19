@@ -236,4 +236,61 @@ h2 {
 	background-color: #1dd2af;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-/*landing pigture with search end*/
+/*landing picture with search end*/
+/* offers start*/
+
+.offers{
+	height: 640px;
+	background-color: #fff;
+	flex:display;
+}
+
+h3{
+	font-family: "Roboto", sans-serif;
+ 	font-weight: 500;
+  	color: #2c3e50;
+  	font-size: 1.563rem;
+  	text-align: center;
+  	text-decoration: none;
+	text-transform: uppercase;
+	padding: 1px;
+}
+
+h4{
+	font-family: "Roboto", sans-serif;
+ 	font-weight: 400;
+  	color: #626262;
+  	font-size: 1rem;
+  	text-align: center;
+  	text-decoration: none;
+	padding: 1px;
+}
+
+.offers .flex_container{
+	/*flex-direction: column;*/
+	/*align-items: center;*/
+	/*justify-content: center; */
+}
+
+.flex_container3 {
+	display: flex;
+	flex-direction: row;
+ 	align-items: center;
+   /*flex-wrap: wrap;*/
+  /*padding: 12px;*/
+}
+
+.offer_content {
+ 	max-height: 200px;
+ 	max-width: 200px;
+  /*margin: 12px;*/
+	background-color: #e3e3e3;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+.offers img {
+  max-width: 150px;
+}
+
+
+/*offers end*/

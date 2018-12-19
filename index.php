@@ -98,9 +98,46 @@
 			</div>
 		</div>
 	</section>
-
 	<!-- Landing picture with searc end -->
-
-
+	<!-- Offers section start -->
+	<section class="offers">
+		<!-- <div class="flex-container"> -->
+			<div class=""><h3>Special Offers</h3>
+						<h4>Best 2014 packages where people love to stay!</h4>
+			</div>
+			<div class="flex-container3">
+					<div class="offer_content">
+						<a href="#"><img src="assets/images/offer1.jpg" alt="USA"></a>
+						<h4>Statue of Liberty</h4>
+						<h5>New Destination!</h5>
+					</div>
+					<div class="offer_content">
+						<a href="#"><img src="assets/images/offer2.png" alt="USA"></a>
+						<h4>Spectacular Seychelles</h4>
+						<h5>New Destination!</h5>
+					</div>
+					<div class="offer_content">
+						<a href="#"><img src="assets/images/offer3.png" alt="USA"></a>
+						<h4>Hong Kong & Macau</h4>
+						<h5>Bonus Extras!</h5>
+					</div>
+					<div class="offer_content">
+						<a href="#"><img src="assets/images/offer4.png" alt="USA"></a>
+						<h4>Vietnam Highlights</h4>
+						<h5>New Destination!</h5>
+					</div>
+					<div class="offer_content">
+						<a href="#"><img src="assets/images/offer5.png" alt="USA"></a>
+						<h4>Spectacular Seychelles</h4>
+						<h5>New Destination!</h5>
+					</div>
+					<div class="offer_content">
+						<a href="#"><img src="assets/images/offer6.png" alt="USA"></a>
+						<h4>Dubai</h4>
+						<h5>New Destination!</h5>
+					</div>
+			</div>
+		<!-- </div> -->
+	</section>
 </body>
 </html>
