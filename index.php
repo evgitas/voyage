@@ -164,6 +164,34 @@
 		</div>
 	</section>
 <!-- Holiday type end -->
+<!-- Happy clients section start -->
+	<section class="happy_clients">
+		<!-- <div class="flex-container"> -->
+			<div class=""><h3>Happy Clients</h3>
+						<h4>what customer say about us and why love our services!</h4>
+			</div>
+			<div class="flex_container6">
+					<div class="talk-bubble tri-right border round btm-left-in">
+						Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.
+						Client Name
+						United States
+					</div>
+					<div class="happy_clients_content talk-bubble tri-right border round btm-left-in">
+						Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.
+						Client Name
+					</div>
+					<div class="happy_clients_content talk-bubble tri-right border round btm-left-in">
+						Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.
+						Client Name
+					</div>
+					<div class="happy_clients_content talk-bubble tri-right border round btm-left-in">
+						Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.
+						Client Name
+					</div>
+			</div>
+		<!-- </div> -->
+	</section>
+<!-- Happy clients section stop -->
 
 </body>
 </html>
