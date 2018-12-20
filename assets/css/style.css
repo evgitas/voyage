@@ -296,12 +296,12 @@ h2 {
 
 .search_container input[type="text"]{
 	padding: 10px; 
-	color:#666;border:2px solid #19242e;
+	color:#fff;border:2px solid #19242e;
 }
 
 .search_container input[type="date"] {
 	padding: 8px; 
-	color:#666;border:2px solid #19242e;
+	color:#8a8a8a;border:2px solid #19242e;
 }
 
 
@@ -311,7 +311,7 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea{
-	color:#666;border:1px solid #ddd;border-radius:3px;
+	color:#8a8a8a;border:1px solid #ddd;border-radius:3px;
 }
 
 
@@ -408,5 +408,30 @@ h5{
 .offer_content:hover h5{
   	color: #fff;
 }
-
 /*offers end*/
+/*holiday type start*/
+
+
+.holiday_type{
+	height: 500px;
+	background-image: url("../images/voyage_hol_type.png");
+	background-size: cover;
+	background-position: center;
+	//background-color: #2c3e50;
+	font-family: "Roboto";
+	font-weight: 400;
+}
+
+
+
+
+.sholiday_type_content{
+	min-height: calc(100vh - 230px);
+	/*background-color: #2c3e50;*/
+	background-color: rgba(44,62,80, 0.8);
+	/*opacity: 0.8;*/
+	/*z-index: 1;*/
+}
+
+
+/*holiday type end*/

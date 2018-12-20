@@ -146,5 +146,22 @@
 			</div>
 		<!-- </div> -->
 	</section>
+<!-- Offers section stop -->
+<!-- Holiday type start -->
+	<section class="holiday_type">
+		<div class="container">
+			<div>Holidays Type<br>get explore your dream to travel the world!</div>
+			<div class="flex-container5">
+				<div class="holiday_type_content">1</div>
+				<div class="holiday_type_content">2</div>
+				<div class="holiday_type_content">3</div>
+				<div class="holiday_type_content">4</div>
+				<div class="holiday_type_content">5</div>
+				<div class="holiday_type_content">6</div>
+			</div>
+		</div>
+	</section>
+<!-- Holiday type end -->
+
 </body>
 </html>
