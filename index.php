@@ -149,15 +149,17 @@
 <!-- Offers section stop -->
 <!-- Holiday type start -->
 	<section class="holiday_type">
-		<div class="container">
-			<div>Holidays Type<br>get explore your dream to travel the world!</div>
-			<div class="flex-container5">
-				<div class="holiday_type_content">1</div>
-				<div class="holiday_type_content">2</div>
-				<div class="holiday_type_content">3</div>
-				<div class="holiday_type_content">4</div>
-				<div class="holiday_type_content">5</div>
-				<div class="holiday_type_content">6</div>
+		<div class="holiday_type_container">
+			<div class="container">
+				<div><h3>Holidays Type</h3><h4>get explore your dream to travel the world!</h4></div>
+				<div class="flex_container5">
+					<div class="holiday_type_content"><a href="#"><i class="fas fa-ship circle"></i><h4>Cruise</h4></a></div>
+					<div class="holiday_type_content"><a href="#"><i class="fas fa-city circle"></i><h4>City Breaks</h4></a></div>
+					<div class="holiday_type_content"><a href="#"><i class="fas fa-kiss-wink-heart circle"></i><h4>Honeymoon</h4></a></div>
+					<div class="holiday_type_content"><a href="#"><i class="far fa-compass circle"></i><h4>Adventure</h4></a></div>
+					<div class="holiday_type_content"><a href="#"><i class="fas fa-car circle"></i><h4>Safari</h4></a></div>
+					<div class="holiday_type_content"><a href="#"><i class="fas fa-umbrella-beach circle"></i><h4>Beach</h4></a></div>
+				</div>
 			</div>
 		</div>
 	</section>
