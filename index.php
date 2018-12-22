@@ -171,27 +171,90 @@
 						<h4>what customer say about us and why love our services!</h4>
 			</div>
 			<div class="flex_container6">
+				<div class="happy_clients_content">
 					<div class="talk-bubble tri-right border round btm-left-in">
-						Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.
-						Client Name
-						United States
+						<a href="#"><h4>Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.</h4>
+						<span>Client Name</span>
+						<h5>United States</h5></a>
 					</div>
+				</div>
+				<div class="happy_clients_content">
 					<div class="happy_clients_content talk-bubble tri-right border round btm-left-in">
-						Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.
-						Client Name
+						<h4>Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.</h4>
+						<span>Client Name</span>
+						<h5>United States</h5>
 					</div>
+				</div>
+				<div class="happy_clients_content">
 					<div class="happy_clients_content talk-bubble tri-right border round btm-left-in">
-						Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.
-						Client Name
+						<h4>Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.</h4>
+						<span>Client Name</span>
+						<h5>United States</h5>
 					</div>
+				</div>
+				<div class="happy_clients_content">
 					<div class="happy_clients_content talk-bubble tri-right border round btm-left-in">
-						Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.
-						Client Name
+						<h4>Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.</h4>
+						<span>Client Name</span>
+						<h5>United States</h5>
 					</div>
+				</div>
 			</div>
 		<!-- </div> -->
 	</section>
 <!-- Happy clients section stop -->
+<!-- FOOTER start -->
+	<footer class="footer_on">
+		<div>
+			<div class="container">
+				<div class="flex_container7">
+					<div class="footer_content">
+						<div><h3>Newsletter</h3></div>
+						<div><h4>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore.</h4>
+						<input type="text" id="newsletter" name="newletter" value="" placeholder="Subscribes...">
+						<span class="search_content btn">Go</span></div>
+					</div>
+					<div class="footer_content">
+						<div><h3>Latest News</h3></div>
+						<div>
+							<div><h4>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore.</h4></div>
+							<div><h4>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore.</h4></div>
+						</div>
+
+					</div>
+					<div class="footer_content">
+						<div><h3>Tags</h3></div>
+						<div class="">
+								<ul class="flex-containerx wrap">
+								  <li class="flex-item"><a class="tags" href="#">Agent Login</a></li>
+								  <li class="flex-item"><a class="tags" href="#">Customer Login</a></li>
+								  <li class="flex-item"><a class="tags" href="#">Not a Member?</a></li>
+								  <li class="flex-item"><a class="tags" href="#">Contact</a></li>
+								  <li class="flex-item"><a class="tags" href="#">New Horozons</a></li>
+								  <li class="flex-item"><a class="tags" href="#">Lanscape</a></li>
+								  <li class="flex-item"><a class="tags" href="#">Tags</a></li>
+								  <li class="flex-item"><a class="tags" href="#">Nice</a></li>
+								  <li class="flex-item"><a class="tags" href="#">Some</a></li>
+								  <li class="flex-item"><a class="tags" href="#">Portrait</a></li>
+								</ul>
+						</div>
+					</div>
+					<div class="footer_content">
+						<div><h3>Address</h3></div>
+						<div class="">
+
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="container">
+			</div>
+		</div>
+	</footer>
+<!-- FOOTER stop -->
 
 </body>
 </html>
