@@ -592,11 +592,8 @@ padd
 	border-color: #fff transparent transparent #fff;
 }
 
-
-
 /*happy clients end */
 /*footer start */
-
 .footer_on{
 	height: 452px;
 	background-color: #2c3e50;
@@ -637,20 +634,13 @@ footer h4{
  	font-weight: 400;
   	color: #fff;
   	font-size:0.9rem;
+  	line-height: 2em;
   	text-align: left;
   	/*text-decoration: none;*/
   	padding: 0px;
 	/*padding: 20px 10px 20px;*/*/
 	/*text-decoration: none;*/
 }
-
-/*footer a {
-    display: block;
-    height: 20px;
-    width: auto;
-    border: 1px solid #000;
-}*/
-
 
 footer a {
   font-family: "Roboto", sans-serif;
@@ -666,13 +656,7 @@ footer a {
   /*padding: 2px;*/
 }
 
-.flex-container_tags{
-	display: flex;
-	flex-wrap: wrap;
-}  
-
-
-.flex-containerx {
+.flex-container_tags {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -689,6 +673,61 @@ footer a {
   border: 1px solid #fff; 
 }
 
+.footer_content input[type="text"]{
+	margin: 4px 0px;
+	padding: 4px 0px; 
+	color:#fff;border:2px solid #19242e;
+}
 
 
+.footer_content .btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0px 5px;
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  margin: : 2px;
+}
+
+.latest_news_content{
+	width: 218px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+/*	margin: 50px 0px;
+	margin-right: 72px; */
+}
+
+.footer_content img{
+	width: 25px;
+	height: 25px;
+	border: 1px solid #fff;
+  	border-radius: 1px;
+ 	padding: 4px;
+}
+
+.flex_container_latest_news{
+	padding-bottom: 12px;
+	display: flex;
+	flex-direction: row;
+}
+
+.flex_container_latest_news_msg{
+	padding-left: 8px;
+}
+
+.flex_container_latest_news_msg span{
+	color: #1dd2af;
+	font-size: 0.8rem;
+}
+
+.footer_content span{
+	color: #1dd2af;
+
+}
 /* footer end */

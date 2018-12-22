@@ -172,7 +172,7 @@
 			</div>
 			<div class="flex_container6">
 				<div class="happy_clients_content">
-					<div class="talk-bubble tri-right border round btm-left-in">
+					<div class="happy_clients_content talk-bubble tri-right border round btm-left-in">
 						<a href="#"><h4>Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's standard dummy text ever hen an with new version look.</h4>
 						<span>Client Name</span>
 						<h5>United States</h5></a>
@@ -216,16 +216,21 @@
 					</div>
 					<div class="footer_content">
 						<div><h3>Latest News</h3></div>
-						<div>
-							<div><h4>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore.</h4></div>
-							<div><h4>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore.</h4></div>
-						</div>
-
+							<div class="latest_news_content">
+								<div class="flex_container_latest_news">
+									<div><img src="assets/images/offer1.jpg" alt="USA"></div>
+									<div class="flex_container_latest_news_msg"><h4>Postformat Gallery: Multiple images <span><br>October 21, 2013 - 3:31 pm</span></h4></div>
+								</div>
+								<div class="flex_container_latest_news">
+									<div><img src="assets/images/offer1.jpg" alt="USA"></div>
+									<div class="flex_container_latest_news_msg"><h4>Postformat Gallery: Multiple images <span><br>October 21, 2013 - 3:31 pm</span></h4></div>
+								</div>
+							</div>
 					</div>
 					<div class="footer_content">
 						<div><h3>Tags</h3></div>
 						<div class="">
-								<ul class="flex-containerx wrap">
+								<ul class="flex-container_tags wrap">
 								  <li class="flex-item"><a class="tags" href="#">Agent Login</a></li>
 								  <li class="flex-item"><a class="tags" href="#">Customer Login</a></li>
 								  <li class="flex-item"><a class="tags" href="#">Not a Member?</a></li>
@@ -241,8 +246,7 @@
 					</div>
 					<div class="footer_content">
 						<div><h3>Address</h3></div>
-						<div class="">
-
+						<div class=""><h4>DieSachbearbeiter Schönhauser Allee 167c,10435 Berlin Germany <span>E-mail:</span> moin@generator.de</h4>
 						</div>
 					</div>
 					</div>
