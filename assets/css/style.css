@@ -48,7 +48,7 @@ nav ul{
 
 
 .top{
-	height: 40px;
+	/*height: 40px;*/
 	/*position: sticky;*/
 	top: 0;
 	background-color: #2c3e50;
@@ -57,15 +57,31 @@ nav ul{
 }
 
 .top .container{
-	height: 40px;
+	/*height: 40px;*/
 	justify-content: space-between;
 	align-items: center;
 }
 
+.top .flex_contaner{
+
+}
+
 .top ul{
+	height: 40px;
 	list-style: none;
 }
 
+.top li{
+    padding-top: 10px; 
+}
+
+.top li:not(:last-child){
+    border-right: 1px solid #17202a;
+}
+
+.top li:not(:first-child){
+	 border-left: 1px solid #374d63;
+}
 /*.top li{
 	border: : solid;
  	border-color: #92a8d1;
@@ -187,6 +203,7 @@ nav ul{
 .search_container{
 	height: 100px;
 	background-color: #2c3e50;
+	border-top: 1px solid #394c5f;
 }
 
 .landing_picture .flex-container{
@@ -765,14 +782,33 @@ footer ul a:hover{
 
 .footer_copyright{
 	height: 50px;
+
 }
 
-.footer_triangle_to_top{
-	height: 25px;
+.footer_copyright h4{
+	text-align: center;
+	color: #485d72;
 }
 
 .footer_nav_top_border{
 	border-top: 1px solid #394c5f;
 }
+
+.footer_triangle_to_top{
+	height: 58px;
+	text-align: center;
+}
+
+.triangle{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 40px 40px 40px;
+	border-color: transparent transparent #1dd2ae transparent;
+}
+
+
+
+
 
 /* footer end */

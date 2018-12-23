@@ -12,7 +12,7 @@
 	<!-- landing top start -->
 	<section class="top">
 		<div >
-			<div class="container flex-container containerheight40">
+			<div class="container flex-container">
 				<div>
 					<ul class="flex-container">                        
 						<li><a href="#">Agent Login</a></li>
@@ -290,7 +290,7 @@
 					</div>
 				</div>
 				<div class="footer_copyright"><h4>Copyright @voyage. All Right Reserved</h4></div>
-				<div class="footer_triangle_to_top">TRIKAMPIS</div>
+				<div class="footer_triangle_to_top"><a href="#" target="_top"><i class="triangle"></i></a></div>
 			</div>
 		</div>
 	</footer>
