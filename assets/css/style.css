@@ -594,8 +594,10 @@ padd
 
 /*happy clients end */
 /*footer start */
-.footer_on{
-	height: 452px;
+
+footer{
+/*.footer_on{*/
+	/*height: 452px;*/
 	background-color: #2c3e50;
 	font-family: "Roboto";
 	font-weight: 300;*/
@@ -608,12 +610,12 @@ padd
 	/*align-items: left;*/
   	justify-content: center;
 	justify-content: space-around;
-	padding-bottom: 40px;
+	/*padding-bottom: 20px;*/
 }
 
 .footer_content{
 	width: 220px;
-	margin: 50px 0px;
+	margin: 20px 0px;
 	margin-right: 72px; 	
 }
 
@@ -730,4 +732,47 @@ footer a {
 	color: #1dd2af;
 
 }
+
+footer ul{
+	list-style: none;
+	padding: 10px 0px 0px;
+}
+
+
+.footer_content .social a{
+	font-size: 1rem; /* 16px */
+	text-decoration: none;
+	padding: 10px 20px 20px 0px;
+}
+
+footer ul a:hover{
+	color: #1dd2af;
+}
+
+.footer_nav{
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer_nav li{
+	list-style: none;
+	padding: 2px 4px;
+  	margin: 2px;
+ 	border-right: 1px solid #fff; 
+}
+
+.footer_copyright{
+	height: 50px;
+}
+
+.footer_triangle_to_top{
+	height: 25px;
+}
+
+.footer_nav_top_border{
+	border-top: 1px solid #394c5f;
+}
+
 /* footer end */

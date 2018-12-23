@@ -247,14 +247,50 @@
 					<div class="footer_content">
 						<div><h3>Address</h3></div>
 						<div class=""><h4>DieSachbearbeiter Schönhauser Allee 167c,10435 Berlin Germany <span>E-mail:</span> moin@generator.de</h4>
+							<ul class="social flex-container">
+							<li>
+								<a href="http://facebook.com" target="_blank">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li>
+								<a href="http://pinterest.com" target="_blank">
+									<i class="fab fa-pinterest-p"></i>
+								</a>
+							</li>
+							<li>
+								<a href="http://twitter.com" target="_blank">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a href="http://linkedin.com" target="_blank">
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+							</li>
+						</ul>
 						</div>
 					</div>
 					</div>
 				</div>
-			</div>
+			<!-- </div> -->
 		</div>
-		<div>
+		<div class="footer_nav_top_border">
 			<div class="container">
+				<div>
+					<div class="footer_nav">
+						<ul class="flex-container">                        
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Destinations</a></li>
+						<li><a href="#">Cruises</a></li>
+						<li><a href="#">Special</a></li>
+						<li><a href="#">Holidays</a></li>
+						<li><a href="#">Blog</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer_copyright"><h4>Copyright @voyage. All Right Reserved</h4></div>
+				<div class="footer_triangle_to_top">TRIKAMPIS</div>
 			</div>
 		</div>
 	</footer>
