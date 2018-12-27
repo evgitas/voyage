@@ -11,14 +11,26 @@
 <body>
 	<!-- landing top start -->
 	<section class="top">
-		<div >
+		<div>
+			<div class="header-top">
+		      <div class="container">
+		        <form action="">
+		          <div id="search">
+		          <input type="text" placeholder="Enter search keyword here ......" name="s" id="top_search" style="display: inline-block;">
+		          <button type="submit">
+		            <i class="fa fa-search"></i>
+		          </button>
+		        </div>
+		        </form>
+		      </div>
+		    </div>
 			<div class="container flex-container">
 				<div>
 					<ul class="flex-container">                        
 						<li><a href="#">Agent Login</a></li>
 						<li><a href="#">Custome Login</a></li>
 						<li><a href="#">Not a Member? <span> Register</span></a></li>
-						<li><a href="#">Call Us Now: 3705588445</a></li>
+						<li><a href="tel://3704567920">Call Us Now: +3704567920</a></li>
 					</ul>
 				</div>
 				<div>
@@ -57,14 +69,14 @@
 					<div class="">
 						<ul class="flex-container">                        
 						<li><a href="#">Home</a></li>
-						<li><a href="#">Destinations</a></li>
-						<li><a href="#">Cruises</a></li>
-						<li><a href="#">Special</a></li>
-						<li><a href="#">Holidays</a></li>
+						<li><a href="#offers">Special</a></li>
+						<li><a href="#holiday_type">Holidays</a></li>
+						<li><a href="#contacs">Contacts</a></li>
+						<li><a href="#clients">Clients</a></li>
 						<li><a href="#">Blog</a></li>
 						</ul>
 					</div>
-					<div class=""><i class="fas fa-search circle"></i></div>
+					<div class=""><a href="#" id="search-icon"><i class="fas fa-search circle"></i></a></div>
 				</div>
 			</div>
 		</div>
@@ -79,8 +91,6 @@
 						<div class="flex-container2">
 							<div>
 								<h1>To travel is to live</h1>
-							<!-- </div> -->
-							<!-- <div> -->
 								<h2>You Don't Need Magic to Disappear. All you need is a destination.</h2>
 							</div>
 							<div>
@@ -92,14 +102,16 @@
 				</div>
 				<div class="search_container">
 					<div class="container">
+						<form action="">
 						<div class="flex-container4">
 							<div class="search_content h7">FIND YOUR <br><span>HOLYDAYS</span></div>
 							<div class="search_content h7">Where</div>
 							<div class="search_content"><input type="text" id="find" name="find" value="" placeholder="destination"></div>
 							<div class="search_content h7">When</div>
 							<div class="search_content"><input type="date" id="date" name="date" value="" placeholder="select date"></div>
-							<div class="search_content btn">Search</div>
+							<div class="search_content"><button type="submit"  class="submit_btn">Search</button></div>
 						</div>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -107,7 +119,7 @@
 	</section>
 	<!-- Landing picture with searc end -->
 	<!-- Offers section start -->
-	<section class="offers">
+	<section id="offers" class="offers">
 		<!-- <div class="flex-container"> -->
 			<div class=""><h3>Special Offers</h3>
 						<h4>Best 2014 packages where people love to stay!</h4>
@@ -148,7 +160,7 @@
 	</section>
 <!-- Offers section stop -->
 <!-- Holiday type start -->
-	<section class="holiday_type">
+	<section id="holiday_type" class="holiday_type">
 		<div class="holiday_type_container">
 			<div class="container">
 				<div><h3>Holidays Type</h3><h4>get explore your dream to travel the world!</h4></div>
@@ -165,7 +177,7 @@
 	</section>
 <!-- Holiday type end -->
 <!-- Happy clients section start -->
-	<section class="happy_clients">
+	<section id="clients" class="happy_clients">
 		<!-- <div class="flex-container"> -->
 			<div class=""><h3>Happy Clients</h3>
 						<h4>what customer say about us and why love our services!</h4>
@@ -204,7 +216,7 @@
 	</section>
 <!-- Happy clients section stop -->
 <!-- FOOTER start -->
-	<footer class="footer_on">
+	<footer id="contacs" class="footer_on">
 		<div>
 			<div class="container">
 				<div class="flex_container7">
@@ -246,7 +258,8 @@
 					</div>
 					<div class="footer_content">
 						<div><h3>Address</h3></div>
-						<div class=""><h4>DieSachbearbeiter Schönhauser Allee 167c,10435 Berlin Germany <span>E-mail:</span> moin@generator.de</h4>
+						<div class=""><h4>DieSachbearbeiter Schönhauser Allee 167c,10435 Berlin Germany 
+							<span>E-mail:</span><a href="mailto:info@yoursite.com"> moin@generator.de</h4></a>
 							<ul class="social flex-container">
 							<li>
 								<a href="http://facebook.com" target="_blank">
@@ -295,6 +308,8 @@
 		</div>
 	</footer>
 <!-- FOOTER stop -->
-
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/custom.js"></script>
 </body>
 </html>
