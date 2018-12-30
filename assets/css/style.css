@@ -102,7 +102,12 @@ nav ul{
 	font-weight: 300;
 }
 
-.top .container{
+.widthcontainer{
+	max-width: 1170px; /*nurodome maksimalu ploti*/
+	margin: 0 auto; /*centruojame*/
+}
+
+.top .widthcontainer{
 	/*height: 40px;*/
 	justify-content: space-between;
 	align-items: center;
@@ -148,10 +153,6 @@ nav ul{
 	color: #1dd2af;
 }
 
-.container{
-	max-width: 1170px; /*nurodome maksimalu ploti*/
-	margin: 0 auto; /*centruojame*/
-}
 
 .flex-container{
 	display: flex;
@@ -317,8 +318,9 @@ h2 {
 }
 
 .search_content{
-/*	height: 80px;
-	display: flex;*/
+	/*height: 80px;*/
+	/*min-width: 250px;*/
+	/*display: flex;*/
 	/*justify-content: space-around;*/
 	/*justify-content: center;*/
 }
@@ -397,6 +399,52 @@ textarea{
 	background-color: #fff;
 	flex:display;
 	padding: 80px 0px;
+}
+
+.offers_test{
+	min-height: 500px;
+	background-color: #fff;
+	/*flex:display;*/
+	padding: 80px 0px;
+}
+
+.offers_test img {
+  max-width: 172px;
+  /*max-height: 180px;*/
+}
+
+.offer_content_test {
+ 	width: 180px;
+ 	height: 200px;
+  /*margin: 12px;*/
+	background-color: #e3e3e3;
+	border: 4px solid #e3e3e3;;
+ 	border-radius: 4px;
+/* 	margin-left: 10px;
+ 	margin-right: 10px;*/
+ 	margin-bottom: 20px;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.offer_content_test:hover {
+ 	background-color: #2c3e50;
+  	transform: scaleY(1.1);
+  /*max-height: 290px;*/
+  	border: 4px solid #1dd2af;
+ 	/*border-radius: 4px;*/
+/* 	padding-bottom: 20px;
+ 	padding-top: 20px;*/
+}
+
+.offer_content_test:hover h5{
+  	color: #fff;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+   /*margin: 0 auto;*/
 }
 
 h3{
@@ -491,7 +539,7 @@ h5{
 
 
 .holiday_type{
-	height: 500px;
+	min-height: 500px;
 	background-image: url("../images/voyage_hol_type.png");
 	background-size: cover;
 	background-position: center;
@@ -505,7 +553,7 @@ h5{
 }
 
 .holiday_type_container{
-	height: 420px;
+	min-height: 500px;
 	background-color: rgba(44,62,80, 0.8);
 	padding: 80px 0px 0px;
 
@@ -531,8 +579,8 @@ h5{
 }*/
 
 .holiday_type_content {
- 	max-height: 190px;
- 	max-width: 160px;
+ 	min-height: 190px;
+ 	/*max-width: 160px;*/
 }
 
 .holiday_type .circle{
@@ -558,7 +606,7 @@ h5{
 /*happy clients start */
 
 .happy_clients{
-	height: 380px;
+	min-height: 480px;
 	padding: 80px 0px 0px;
 
 }
@@ -573,8 +621,8 @@ h5{
 .happy_clients_content{
 	/*height: 420px;*/
 	/*padding: 80px 0px 0px;*/
-	margin: 10px;
-	padding: 10px;
+	margin: 0px;
+	padding: 0px;
 }
 
 .happy_clients_content h4{
@@ -696,8 +744,8 @@ footer{
 
 .footer_content{
 	width: 220px;
-	margin: 20px 0px;
-	margin-right: 72px; 	
+	margin: 20px;
+	/*margin-right: 72px; 	*/
 }
 
 
